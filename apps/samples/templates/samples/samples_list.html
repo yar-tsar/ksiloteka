@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/samples.css' %}">
+    <title>Список образцов</title>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Список образцов, внесенных в базу</h1>
+    </div>
+    <div class="content">
+        {% for sample in posts %}
+        <h4>{{ sample.latin }}<br>{{ sample.name }}</h4>
+        {{ sample.location }}
+        {% endfor %}
+    </div>
+</body>
+</html>

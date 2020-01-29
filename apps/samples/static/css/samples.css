@@ -1,0 +1,33 @@
+.page-header {
+    font-size: 36pt;
+    text-align: center;
+    padding: 20px 20px 20px 40px;
+    color: #FDFEFE ;
+    background-color: #117A65;
+    margin-top: 0pt;
+    
+}
+h4{
+    font-size: 20pt;
+}
+.content{
+    font-size: 16pt;
+    color: #111111;
+}
+.content:hover{
+    font-size: 16pt;
+    color: #117A65;
+}
+.footer{
+    padding: 20px 20px 20px 40px;
+    color: #FDFEFE;
+    background-color: #117A65;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+a{
+    color: #F1C40F 
+}
+a:hover{
+    color:  #FDFEFE;
+}
