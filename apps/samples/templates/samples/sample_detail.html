@@ -1,0 +1,14 @@
+{% extends 'samples/base.html' %}
+
+{% block content %}
+<div class="content-title">
+    <h2>Описание образца</h2>
+</div>
+    <div class="content">
+        <h2>{{ sample.latin }} {{ sample.name }}</h2>
+        <p>Страна сбора: {{ sample.location }}</p>
+        <p>Род: {{ sample.genus }}</p>
+        <p>Семейство: {{ sample.family }}</p>
+        <p>{{ sample.bio }}</p>
+    </div>
+{% endblock %}

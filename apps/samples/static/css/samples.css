@@ -5,29 +5,20 @@
     color: #FDFEFE ;
     background-color: #117A65;
     margin-top: 0pt;
-    
+    font-family: 'Oswald', sans-serif;
 }
-h4{
-    font-size: 20pt;
+.page-header a, .page-header a:hover, .page-header a:visited{
+    color: #F1C40F
+}
+.content-title{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 40pt;
 }
 .content{
+    margin-left: 40pt;
     font-size: 16pt;
     color: #111111;
 }
-.content:hover{
-    font-size: 16pt;
-    color: #117A65;
-}
-.footer{
-    padding: 20px 20px 20px 40px;
-    color: #FDFEFE;
-    background-color: #117A65;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
-}
-a{
-    color: #F1C40F 
-}
-a:hover{
-    color:  #FDFEFE;
+.content a, .content a:hover, .content a:visited{
+    color: #F1C40F
 }
