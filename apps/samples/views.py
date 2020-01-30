@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .models import Sample
+from .models import Department
+from .models import PickupLocation
 from django.shortcuts import render, get_object_or_404
 
 def sample_detail(request, pk):

@@ -6,9 +6,17 @@
 </div>
     <div class="content">
         <h2>{{ sample.latin }} {{ sample.name }}</h2>
-        <p>Страна сбора: {{ sample.location }}</p>
-        <p>Род: {{ sample.genus }}</p>
+       
+        <p>Отдел: {{ sample.department }}</p>
         <p>Семейство: {{ sample.family }}</p>
-        <p>{{ sample.bio }}</p>
+        <p>Род: {{ sample.genus }}</p>
+        <p>Страна сбора: {{ sample.location }}</p>
+        <p>{{ sample.bio }}</p> 
+        <p>Образцов в наличии: {{ sample.count }}</p>
+    </div>
+    <div class="barter">
+        {% if sample.count > 2 %}
+        <p>Готовы к обмену!</p>
+        {% endif %}
     </div>
 {% endblock %}

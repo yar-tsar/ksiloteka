@@ -22,3 +22,8 @@
 .content a, .content a:hover, .content a:visited{
     color: #F1C40F
 }
+.barter{
+    margin-left: 40pt;
+    font-size: 16pt;
+    color: #FF0707;
+}
