@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'ksilo_1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wood',
-        'USER': 'postgres',
-        'PASSWORD': '78947',
+        'NAME': 'wood_samples',
+        'USER': 'ksiloteka',
+        'PASSWORD': 'ksilzvb',
         'HOST': '127.0.0.1',
         'PORT': '5432',
         }
